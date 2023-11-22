@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://wxkhturf.github.io/posts/f3fb008f.html</loc>
-    
-    <lastmod>2023-11-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://wxkhturf.github.io/404/index.html</loc>
-    
-    <lastmod>2023-11-22</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://wxkhturf.github.io/about/index.html</loc>
     
     <lastmod>2023-11-22</lastmod>
@@ -45,6 +31,20 @@
   
   <url>
     <loc>http://wxkhturf.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wxkhturf.github.io/posts/f3fb008f.html</loc>
+    
+    <lastmod>2023-11-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://wxkhturf.github.io/404/index.html</loc>
     
     <lastmod>2023-11-22</lastmod>
     
