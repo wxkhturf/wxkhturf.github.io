@@ -483,7 +483,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    796
+                    792
                 </div>
                 
 
@@ -557,29 +557,30 @@
 </ol>
 </blockquote>
 </li>
-<li><blockquote>
-<pre><code class="bash">hexo clean #清除缓存
+<li><pre><code class="bash">hexo clean #清除缓存
 hexo g #生成静态网页
 hexo s #查看网页效果
 hexo d #将本地数据部署到远端服务器(如github)
 
 hexo new post "article title"#新建一篇文章
 <pre class="line-numbers language-none"><code class="language-none">
-  &gt;执行`hexo new post "your article"`后，然后打开`source/_posts`目录，可以发现下面多了一个文件夹和一个.md文件，编辑该文件即可
+   执行`hexo new post "your article"`后，然后打开`source/_posts`目录，可以发现下面多了一个文件夹和一个.md文件，编辑该文件即可
 
-5. &gt;**图片显示**
+   
 
-  &gt;1. 安装:
+5. **图片显示**
 
-  ```bash
-  npm install hexo-renderer-marked
-  npm install hexo-asset-image-for-hexo5 --save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+   1. 安装:
+
+     ```bash
+   npm install hexo-renderer-marked
+   npm install hexo-asset-image-for-hexo5 --save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 2. 修改`_config.yml`：
 
   将`post_asset_folder`从false改为`true`
 
-3.  &gt;├─source
+3. &gt;├─source
    &gt;│  ├─博客搭建.md
    &gt;│  └─博客搭建/259_npm.png
    &gt;
@@ -589,8 +590,8 @@ hexo new post "article title"#新建一篇文章
    &gt;
    &gt;`{% asset_img 259_npm.png gitbash显示 %}`
 </code></pre>
-</blockquote>
 </li>
+<li></li>
 <li><p>附上配置成功后的环境：</p>
 <img src="/medias/loading.gif" data-original="/posts/f3fb008f/260_npm.png" class="" title="最终环境"></li>
 </ol>
@@ -605,7 +606,9 @@ hexo new post "article title"#新建一篇文章
   branch: main<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 <li><p>运行下面命令即可：</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token parameter variable">-d</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo clean
+hexo g
+hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li>
 </ol>
 
                 
@@ -1080,7 +1083,7 @@ hexo new post "article title"#新建一篇文章
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">796</span>&nbsp;字
+                class="white-color">792</span>&nbsp;字
             
             
             
