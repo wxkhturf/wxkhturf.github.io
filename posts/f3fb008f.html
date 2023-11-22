@@ -447,12 +447,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/npm/">
+                                <span class="chip bg-color">npm</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" class="post-category">
+                                环境配置
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -470,23 +483,18 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    694
+                    796
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分钟
+                    3 分钟
                 </div>
                 
 
                 
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
             </div>
         </div>
         <hr class="clearfix">
@@ -586,6 +594,19 @@ hexo new post "article title"#新建一篇文章
 <li><p>附上配置成功后的环境：</p>
 <img src="/medias/loading.gif" data-original="/posts/f3fb008f/260_npm.png" class="" title="最终环境"></li>
 </ol>
+<h2 id="37-4-部署至github"><a href="#37-4-部署至github" class="headerlink" title="37.4 部署至github"></a>37.4 部署至github</h2><p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/yaorongke/article/details/119089190">【精选】GitHub Pages + Hexo搭建个人博客网站，史上最全教程_hexo博客_淡淡的说非的博客-CSDN博客</a></p>
+<ol>
+<li><p><code>npm install hexo-deployer-git --save</code></p>
+</li>
+<li><p>修改根目录下的 _config.yml，配置 GitHub 相关信息(<strong>注意添加自己的ssh至github上</strong>)</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">deploy:
+  type: <span class="token function">git</span>
+  repository: git@github.com:wxkhturf/wxkhturf.github.io.git
+  branch: main<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>运行下面命令即可：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token parameter variable">-d</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+</ol>
 
                 
             </div>
@@ -649,7 +670,11 @@ hexo new post "article title"#新建一篇文章
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/npm/">
+                                    <span class="chip bg-color">npm</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -843,13 +868,25 @@ hexo new post "article title"#新建一篇文章
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            队长
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" class="post-category">
+                                    环境配置
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/npm/">
+                        <span class="chip bg-color">npm</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -881,13 +918,25 @@ hexo new post "article title"#新建一篇文章
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            队长
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" class="post-category">
+                                    环境配置
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/npm/">
+                        <span class="chip bg-color">npm</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1024,30 +1073,18 @@ hexo new post "article title"#新建一篇文章
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2018-2023</span>
+                <span id="year">2023</span>
             
             <a href="/about" target="_blank">卫生大队队长</a>
             |&nbsp;<span style="margin: 0 5px; display: inline-block;"><i class="fa fa-heart" style="color:#ff71a8;"></i></span>  Powered by <a href="/about" target="_blank">卫生大队队长</a>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">694</span>&nbsp;字
+                class="white-color">796</span>&nbsp;字
             
             
             
             
-            
-            
-            <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
-                    class="white-color"></span>&nbsp;次
-            </span>
-            
-            
-            <span id="busuanzi_container_site_uv">
-                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
-            </span>
             
             <br>
             
@@ -1060,10 +1097,10 @@ hexo new post "article title"#新建一篇文章
                     var days = hours * 24;
                     var years = days * 365;
                     var today = new Date();
-                    var startYear = "2018";
-                    var startMonth = "5";
-                    var startDate = "20";
-                    var startHour = "0";
+                    var startYear = "2023";
+                    var startMonth = "11";
+                    var startDate = "22";
+                    var startHour = "10";
                     var startMinute = "0";
                     var startSecond = "0";
                     var todayYear = today.getFullYear();
@@ -1099,7 +1136,7 @@ hexo new post "article title"#新建一篇文章
             
             
         </div>
-        <div class="col s12 m4 l4 social-link social-statis">
+        <div class="col s12 m4 l4 social-link ">
     <a href="https://github.com/wxkhturf" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
@@ -1273,8 +1310,6 @@ $(function () {
     
     <script src="/libs/others/clicklove.js" async="async"></script>
     
-    
-    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     
 
     <!--  动态改变标签  -->
