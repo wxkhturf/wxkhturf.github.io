@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>队长的博客</title>
+  
+  <subtitle>卫生大队</subtitle>
+  <link href="http://wxkhturf.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://wxkhturf.github.io/"/>
+  <updated>2023-11-22T01:55:19.997Z</updated>
+  <id>http://wxkhturf.github.io/</id>
+  
+  <author>
+    <name>卫生大队队长</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客搭建</title>
+    <link href="http://wxkhturf.github.io/posts/f3fb008f.html"/>
+    <id>http://wxkhturf.github.io/posts/f3fb008f.html</id>
+    <published>2023-11-22T01:29:16.000Z</published>
+    <updated>2023-11-22T01:55:19.997Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;三十七-个人博客搭建（github）&quot;&gt;&lt;a href=&quot;#三十七-个人博客搭建（github）&quot; class=&quot;headerlink&quot; title=&quot;三十七. 个人博客搭建（github）&quot;&gt;&lt;/a&gt;三十七.</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
